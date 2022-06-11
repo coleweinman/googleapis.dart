@@ -148,6 +148,7 @@ class ImplicitFlow {
       if (loginHint != null) 'login_hint': loginHint,
       // include_granted_scopes - missing
       'plugin_name': 'dart-googleapis_auth',
+      'access_type': 'offline'
     };
 
     _gapiAuth2.callMethod('authorize', [
